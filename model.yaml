@@ -1,0 +1,13 @@
+c_data: 1 # given for completeness but should be kept at 1.
+c_residual: 0.001 # scale factor for residual virtual likelihood, 0 corresponds to no residual likelihood
+c_ineq: 0 # scale factor for inequality virtual likelihood, 0 corresponds to no inequality likelihood
+lambda_opt: 0 # lambda of exponential distribution used to introduce optimization likelihood, 0 corresponds to no optimization likelihood
+diff_steps: 100 # number of diffusion timesteps
+x0_estimation: 'mean' # 'mean' or 'sample'
+ddim_steps: 0 # DDIM steps, 0 corresponds to direct mapping to x1 as proposed in manuscript, only relevant if x0_estimation == 'sample'
+residual_grad_guidance: False # gradient guidance as in https://www.sciencedirect.com/science/article/pii/S0021999123000670
+correction_mode: xt # correct based on 'xt' or 'x0', CoCogen as presented in https://arxiv.org/abs/2312.10527 uses xt
+M_correction: 0 # correction steps after sampling x0, see https://arxiv.org/abs/2312.10527
+N_correction: 0 # correction steps before sampling x0, see https://arxiv.org/abs/2312.10527
+gov_eqs: darcy # governing equations under consideration, either 'darcy' or 'mechanics'
+fd_acc: 2 # accuracy of finite difference evaluation (keep at 2 to be consistent with training data), only relevant for 'darcy'
