@@ -31,6 +31,7 @@ To reproduce the results for the Darcy flow and topology optimization study, you
 .
 ├── data
 │   ├── darcy
+│   │   └── ...
 │   └── mechanics
 │       └── ...
 └── trained_models
