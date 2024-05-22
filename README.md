@@ -1,1 +1,1 @@
-# PhysicsInformedDiffusionModels
+# Physics Informed Diffusion Models
