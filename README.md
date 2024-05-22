@@ -12,6 +12,7 @@
   <span class="author-block"><sup>1</sup>ETH Zurich,</span>
   <span class="author-block"><sup>2</sup>Columbia University</span>
 </div>
+
 $~$
 <p align="center"><img src="circular_samples.gif" width="550"\></p>
 
