@@ -1,4 +1,20 @@
-# Physics-Informed Diffusion Models
+<h1 align="center">Physics-Informed Diffusion Models</h1>
+</h4>
+<div align="center">
+  <span class="author-block">
+    <a>Jan-Hendrik Bastek</a><sup>1</sup>,</span>
+  <span class="author-block">
+    <a>WaiChing Sun</a><sup>2</sup> and</span>
+  <span class="author-block">
+    <a>Dennis M. Kochmann</a><sup>1</sup></span>
+</div>
+<div align="center">
+  <span class="author-block"><sup>1</sup>ETH Zurich,</span>
+  <span class="author-block"><sup>2</sup>Columbia University</span>
+</div>
+
+$~$
+<p align="center"><img src="circular_samples.gif" width="550"\></p>
 
 ## Description
 
