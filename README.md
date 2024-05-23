@@ -26,7 +26,7 @@ We provide three scripts:
 
 `main_toy.py` reproduces the toy study presented in Appendix F.1. It is helpful to understand the implications of the PIDM loss and several variants. Simply change the config file and run the script to reproduce the results or experiment with different parameters.
 
-To reproduce the results for the Darcy flow and topology optimization study, you will first have to download the data and potentially the pretrained models. To do so, download and unzip the data provided at [TBD] and model checkpoints provided at [TBD] and place them as follows:
+To reproduce the results for the Darcy flow and topology optimization study, you will first have to download the data and pretrained models from the [ETHZ Research Collection](https://doi.org/10.3929/ethz-b-000674074) and place them (unzipped) as follows:
 ```
 .
 ├── data
@@ -73,4 +73,13 @@ Package | Version (>=)
 
 ## Citation
 
-If this code is useful for your research, please cite our preprint [TBD].
+If this code is useful for your research, please cite our [preprint](https://arxiv.org/abs/2403.14404):
+```bibtex
+@article{Bastek2024,
+      title={Physics-Informed Diffusion Models}, 
+      author={Jan-Hendrik Bastek and WaiChing Sun and Dennis M. Kochmann},
+      year={2024},
+      eprint={2403.14404},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
