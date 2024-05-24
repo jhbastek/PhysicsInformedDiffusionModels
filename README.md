@@ -17,7 +17,7 @@ $~$
 <p align="center"><img src="circular_samples.gif" width="550"\></p>
 
 ## Introduction & Setup
-We introduce a framework to inform diffusion models of constraints generated samples must adhere to during model training, as presented in [TBD].
+We introduce a framework to inform diffusion models of constraints generated samples must adhere to during model training, as presented in [Physics-Informed Diffusion Models](https://arxiv.org/abs/2403.14404).
 To conduct similar studies as those presented in the preprint, start by cloning this repository via
 ```
 git clone https://github.com/jhbastek/PhysicsInformedDiffusionModels.git
