@@ -57,7 +57,7 @@ Package | Version (>=)
 :-|:-
 `pytorch`                   | `2.0.1`
 `tqdm`                      | `4.65.0`
-`matplotlib`                | `3.7.2`s
+`matplotlib`                | `3.7.2`
 `imageio`                   | `2.28.1`
 `einops`                    | `0.6.1`
 `wandb` (optional)          | `0.15.2`
