@@ -1,3 +1,5 @@
+:tada: **News** (2025.01) PIDM has been accepted at ICLR 2025 - see you in Singapore!
+
 <h1 align="center">Physics-Informed Diffusion Models</h1>
 <h4 align="center">
 <a href="https://arxiv.org/abs/2403.14404"><img src="https://img.shields.io/badge/arXiv-2403.14404-blue" alt="arXiv"></a>
