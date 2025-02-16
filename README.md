@@ -77,13 +77,13 @@ Package | Version (>=)
 
 ## Citation
 
-If this code is useful for your research, please cite our [preprint](https://arxiv.org/abs/2403.14404):
+If this code is useful for your research, please consider citing
 ```bibtex
-@article{Bastek2024,
-      title={Physics-Informed Diffusion Models}, 
-      author={Jan-Hendrik Bastek and WaiChing Sun and Dennis M. Kochmann},
-      year={2024},
-      eprint={2403.14404},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{
+bastek2025physicsinformed,
+title={Physics-Informed Diffusion Models},
+author={Jan-Hendrik Bastek and WaiChing Sun and Dennis Kochmann},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=tpYeermigp}
 }
