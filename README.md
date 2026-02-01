@@ -43,6 +43,8 @@ To reproduce the results for the Darcy flow and topology optimization study, you
         └── ...
 ```
 
+On macOS, if standard extraction fails, try using `ditto -x -k <source> <target>` to ensure all files and metadata are processed correctly.
+
 After this, you can run the following scripts:
 
 `main.py` reproduces the Darcy flow and topology optimization study presented in Section 4. Simply adjust the parameters and governing equations in `model.yaml` and run the script to train the models. Note that the name of the run and logging parameters can be directly adjusted in `main.py`, if necessary.
