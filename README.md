@@ -43,7 +43,7 @@ To reproduce the results for the Darcy flow and topology optimization study, you
         └── ...
 ```
 
-On macOS, if standard extraction fails, try using `ditto -x -k <source> <target>` to ensure all files and metadata are processed correctly.
+On macOS, if standard extraction fails, try using `ditto -x -k <source> <target>`.
 
 After this, you can run the following scripts:
 
